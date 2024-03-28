@@ -11,6 +11,7 @@ Este projeto é uma aplicação web simples que lista os personagens do universo
 ## Tecnologias Utilizadas
 - HTML
 - CSS
+- SASS
 - JavaScript
 - Consumo de API REST
 
