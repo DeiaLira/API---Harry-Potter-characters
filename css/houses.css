@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+main ol .gryffindor {
+  background-color: #D9C091;
+}
+main ol .gryffindor:hover {
+  background-color: #8C1414;
+  color: #D99923;
+}
+main ol .hufflepuff {
+  background-color: #D9C091;
+}
+main ol .hufflepuff:hover {
+  background-color: #F2CB05;
+  color: #261918;
+}
+main ol .ravenclaw {
+  background-color: #D9C091;
+}
+main ol .ravenclaw:hover {
+  background-color: #142240;
+  color: #8E9EBF;
+}
+main ol .slytherin {
+  background-color: #D9C091;
+}
+main ol .slytherin:hover {
+  background-color: #07260F;
+  color: #BFBFBF;
+}
+
+/*# sourceMappingURL=houses.css.map */

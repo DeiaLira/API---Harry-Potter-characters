@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+body {
+  background-color: #8C1414;
+  color: #D99923;
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  font-size: 2em;
+  text-align: center;
+  margin: 1em;
+}
+
+main ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  color: #8C1414;
+}
+main ol a {
+  text-decoration: none;
+}
+main ol li {
+  display: flex;
+  flex-direction: column;
+  background-color: #D99923;
+  border-radius: 1em;
+  font-size: 1em;
+  margin: 0.5em;
+  padding: 1em;
+  text-align: center;
+  width: 36%;
+  height: 32%;
+}
+main ol li .alternate_names {
+  font-size: 0.8em;
+}
+main ol li img {
+  height: 80px;
+  width: 40%;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background-color: #D99923;
+  color: #8C1414;
+  justify-content: center;
+}
+footer p {
+  padding-top: 0.7em;
+}
+
+/*# sourceMappingURL=students-list.css.map */
