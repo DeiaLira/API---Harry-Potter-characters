@@ -1,7 +1,3 @@
-const offset = 0;
-const limit = 10;
-const url = `https://hp-api.onrender.com/api/characters/students?offset=${offset}&limit=${limit}`;
-
 function convertStudentToHtml(student) {
     return `
     <li>
@@ -14,14 +10,15 @@ function convertStudentToHtml(student) {
 
 const studentList = document.getElementById('studentList');
 
-fetch(url)
-    .then((response) => response.json())
-    .then((students) => {
+    hpApi.getStudents().then((students) => {
+        const listStudents = [];
+
         for (let i = 0; i < students.length; i++) {
             const student = students[i];
-            studentList.innerHTML += (convertStudentToHtml(student));
+            listStudents.push(convertStudentToHtml(student));
         }
-    })
-    .catch((error) => console.error (error))
-    .finally(() => console.log("Requisição concluída!"))
 
+        console.log(listStudents);
+    })
+    .catch((error) => console.error (error));
+    .finally(() => console.log("Requisição concluída!"));
